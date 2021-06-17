@@ -62,7 +62,10 @@ function calculator(n1, n2) {
   {
        for(var i = 1; i <= 10; i++)
        {
-           console.log(i * numero)
+          
+           var multi = numero * i; 
+           console.log(multi)
+          
        }
   }
-  console.log(multiplicar(2))
+  multiplicar(2);
